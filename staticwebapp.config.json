@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "route": "/consult",
+      "rewrite": "/casetra-questionnaire-3.html"
+    },
+    {
+      "route": "/consult/*",
+      "rewrite": "/casetra-questionnaire-3.html"
+    }
+  ],
+  "globalHeaders": {
+    "X-Content-Type-Options": "nosniff",
+    "X-Frame-Options": "DENY"
+  }
+}
